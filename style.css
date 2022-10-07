@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  background-color: rgb(168, 165, 165);
+  /* width: 434px; */
+  height: 130vh;
+  transition: transform 0.5s ease-in;
+  position: absolute;
+}
+.main {
+  margin: 0 75px;
+  width: 90vw;
+}
+.container {
+  display: flex;
+}
+.sidebar nav {
+  padding: 10px;
+}
+.sidebar nav li {
+  font-size: 1.12rem;
+  margin-top: 8px;
+  list-style: none;
+  padding: 40px;
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+.infocontainer {
+  /* background-color: aliceblue; */
+  height: 68vh;
+  width: 80vw;
+  display: flex;
+  margin: 120px auto;
+  justify-content: space-around;
+}
+.devPic img {
+  width: 78vh;
+}
+.devInfo {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.hello {
+  font-size: 3em;
+}
+.name {
+  font-size: 4em;
+  font-weight: bold;
+}
+.about {
+  font-size: 2.5em;
+  padding-bottom: 40px;
+}
+.btn {
+  padding: 10px 15px;
+  border-radius: 22px;
+  color: white;
+  background-color: dodgerblue;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin: 0 8px;
+  cursor: pointer;
+}
+.btn-sm {
+  font-size: 14px;
+  padding: 10px 19px;
+  margin: 12px 0;
+}
+.btn:hover {
+  background-color: white;
+  color: dodgerblue;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+.contactform {
+  margin-left: 80px;
+  padding: 0 34px;
+  padding-top: 30px;
+}
+.contactform h1 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.contactform form div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+.contactform form div input {
+  width: 26vw;
+  border-radius: 5px;
+  margin: 6px 0 0 0;
+  padding: 3px;
+}
+#emailHelp {
+  font-size: 8px;
+  color: midnightblue;
+  margin: 0 5px;
+}
+
+.blogHeading {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 34px;
+}
+.skills {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 34px;
+  padding: 0 34px;
+}
+.skills h2 {
+  padding: 20px;
+}
+.certification {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 34px;
+  padding: 0 34px;
+}
+
+.blog {
+  padding: 0 34px;
+  padding-top: 25px;
+}
+
+.introheading {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 34px;
+}
+table {
+  padding: 25px;
+}
+table tr td {
+  padding: 20px 45px;
+  text-align: left;
+}
+.certification h2 {
+  padding: 20px;
+}
+.certificates {
+  padding: 20px;
+}
+.error {
+  padding-top: 180px;
+  justify-content: center;
+  text-align: center;
+}
+.error h1 {
+  padding: 20px;
+}
+.dotted-hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  height: 0px;
+  width: 10%;
+}
+.certificates p {
+  padding-bottom: 10px;
+}
+.cert-btn {
+  font-size: 10px;
+}
+.note {
+  font-size: 12px;
+  padding: 80px;
+  color: midnightblue;
+  margin: 0 5px;
+}
+.hamburger {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.cross {
+  margin-left: 95px;
+}
+.sidebarGo {
+  transform: translate(-443px, 0px);
+  position: absolute;
+}
+
+.footer {
+  margin-top: 10px;
+  background-color: rgb(207, 207, 207);
+  padding-bottom: 80px;
+}
+
+.socials {
+  padding: 20px;
+}
+
+@media (max-width: 970px) {
+  .devPic {
+    display: none;
+  }
+}

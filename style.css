@@ -192,6 +192,9 @@ table tr td {
   position: absolute;
 }
 
+.footer h2 {
+  padding: 20px;
+}
 .footer {
   margin-top: 10px;
   background-color: rgb(207, 207, 207);
@@ -200,6 +203,8 @@ table tr td {
 
 .socials {
   padding: 20px;
+  text-decoration: none;
+  color: black;
 }
 
 @media (max-width: 970px) {
